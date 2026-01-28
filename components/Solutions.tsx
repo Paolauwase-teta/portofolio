@@ -30,14 +30,14 @@ export default function Solutions() {
       category: "EdTech & Web",
       desc: "A comprehensive digital skills application and educational website bridge the gap in technology literacy.",
       image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80",
-      icon: <Laptop className="w-5 h-5" />
+      icon: <Laptop className="w-4 h-3" />
     },
     {
       title: "Paola Portfolio",
       category: "Personal Brand",
       desc: "A premium, high-fidelity digital window into my engineering philosophy, built with Next.js and GSAP.",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80",
-      icon: <User className="w-5 h-5" />
+      icon: <User className="w-4 h-3" />
     }
   ];
 

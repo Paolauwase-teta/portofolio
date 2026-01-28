@@ -6,19 +6,19 @@ import { Smartphone, Monitor } from "lucide-react";
 export default function About() {
   const experiences = [
     {
-      year: "2022",
+      year: "2024",
       title: "The Foundation",
       tech: "HTML, CSS, JavaScript",
       desc: "Started my journey by mastering the building blocks of the web, focusing on semantic structures and modern styling techniques."
     },
     {
-      year: "2023",
+      year: "2025",
       title: "Frontend Mastery",
       tech: "React, Next.js, Tailwind",
       desc: "Dove deep into component-based architecture and server-side rendering to build high-performance, SEO-friendly applications."
     },
     {
-      year: "2024",
+      year: "2026",
       title: "Mobile Revolution",
       tech: "React Native, Flutter",
       desc: "Expanded my skillset to cross-platform mobile development, delivering seamless native experiences for iOS and Android."

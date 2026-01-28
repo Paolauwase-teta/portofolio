@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "NexaTech",
-  description: "NexaTech - Modern web application",
+  title: "PaolaUwase",
+  description: "Paola-Ready to transform your vision into a high-performance digital reality!",
 };
 
 export default function RootLayout({
