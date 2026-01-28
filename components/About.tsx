@@ -14,7 +14,7 @@ export default function About() {
     {
       year: "2025",
       title: "Frontend Mastery",
-      tech: "React, Next.js, Tailwind",
+      tech: "React, Next.js, Tailwind,Angular,",
       desc: "Dove deep into component-based architecture and server-side rendering to build high-performance, SEO-friendly applications."
     },
     {

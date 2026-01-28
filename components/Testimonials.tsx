@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { Star, Quote } from "lucide-react";
+import { Star } from "lucide-react";
 import gsap from "gsap";
 
 export default function Testimonials() {
-    const listRef = useRef(null);
+    const listRef = useRef<HTMLDivElement>(null);
 
     const testimonials = [
         {
@@ -56,17 +56,13 @@ export default function Testimonials() {
         const list = listRef.current;
         if (!list) return;
 
-        const totalWidth = list.scrollWidth;
         const duration = 40; // Speed of the carousel
 
         const animation = gsap.to(list, {
-            x: `-${totalWidth / 2}px`,
+            xPercent: -50,
             duration: duration,
             ease: "none",
-            repeat: -1,
-            onReverseComplete: () => {
-                animation.totalTime(animation.rawTime() + animation.duration() * 100);
-            }
+            repeat: -1
         });
 
         const handleMouseEnter = () => animation.pause();
@@ -98,10 +94,10 @@ export default function Testimonials() {
                 </div>
 
                 {/* Carousel Wrapper */}
-                <div className="relative group">
+                <div className="relative group overflow-hidden">
                     <div
                         ref={listRef}
-                        className="flex gap-6 w-max"
+                        className="flex gap-6 w-max pr-6"
                     >
                         {/* Double the cards for seamless loop */}
                         {[...testimonials, ...testimonials].map((t, i) => (
