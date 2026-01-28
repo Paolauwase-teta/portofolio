@@ -36,7 +36,7 @@ export default function FAQ() {
                         <span className="text-[10px] font-bold text-[#d9ff00] uppercase tracking-[0.4em]">Help Center</span>
                     </div>
                     <h2 className="text-4xl md:text-5xl font-medium text-white">
-                        We've got the <span className="text-gray-500 italic">answers.</span>
+                        We&apos;ve got the <span className="text-gray-500 italic">answers.</span>
                     </h2>
                 </div>
 

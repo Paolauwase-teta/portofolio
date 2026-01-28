@@ -23,8 +23,8 @@ export default function Testimonials() {
             avatar: "JK"
         },
         {
-            name: "Sarah Thompson",
-            role: "Product Lead",
+            name: "NIYOBYOSE Isaac Precieux",
+            role: "Founder Tech4Impact",
             date: "20 Mar 2024",
             text: "Precision, performance, and passion. That's what you get when you work with Paola. Truly recommended for any high-growth startup.",
             avatar: "ST"
@@ -111,7 +111,7 @@ export default function Testimonials() {
 
                                 {/* Text */}
                                 <p className="text-gray-400 text-sm leading-relaxed mb-10 flex-1">
-                                    "{t.text}"
+                                    {t.text}
                                 </p>
 
                                 {/* Author */}
