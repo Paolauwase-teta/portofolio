@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Leaf, Eye, Laptop, User, Home, Hospital,ArrowUpRight, } from "lucide-react";
+import { Leaf, Eye, Laptop, User, Home, Hospital, ArrowUpRight, } from "lucide-react";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -11,57 +11,57 @@ export default function Solutions() {
   const containerRef = useRef(null);
 
 
-const projects = [
-  {
-    title: "ALMA Agriculture",
-    category: "Agriculture & Logistics",
-    desc: "Smart platform designed to reduce food spoilage and post-harvest loss by optimizing storage and logistics for local farmers.",
-    image: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=400&q=60",
-    icon: <Leaf className="w-5 h-5" />
-  },
-  {
-    title: "SmartQueue",
-    category: "Healthcare & Notifications",
-    desc: "Hospital queue notification system built with Angular that alerts users via SMS or app when they are next in line, reducing waiting time and missed appointments.",
-    image: "https://images.unsplash.com/photo-1588776814546-5f1e9c735d17?auto=format&fit=crop&w=400&q=60",
-    icon: <Hospital className="w-5 h-5" />
-  },
-  {
-    title: "School Management System",
-    category: "EdTech & Web",
-    desc: "A school management platform that allows students and staff to efficiently view and track academic progress and administrative records.",
-    image: "https://images.unsplash.com/photo-1596495577886-d920f7a43af8?auto=format&fit=crop&w=400&q=60",
-    icon: <Laptop className="w-4 h-4" />
-  },
-  {
-    title: "Python Data Sorter",
-    category: "Data Processing",
-    desc: "A Python-based application designed to organize, sort, and process large datasets efficiently for analytical and reporting purposes.",
-    image: "https://images.unsplash.com/photo-1581091012184-0a9be5b67f5c?auto=format&fit=crop&w=400&q=60",
-    icon: <Laptop className="w-4 h-4" />
-  },
-  {
-    title: "Asivate AI",
-    category: "Assistive Tech",
-    desc: "Mobile app developed in a hackathon to assist disabled individuals with spatial navigation and object recognition, promoting inclusion in society.",
-    image: "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=400&q=60",
-    icon: <Eye className="w-5 h-5" />
-  },
-  {
-    title: "Real Estate Platform",
-    category: "Web & Frontend",
-    desc: "React-based application built to learn frontend fundamentals, allowing users to browse and filter property listings efficiently.",
-    image: "https://images.unsplash.com/photo-1560185127-6e4bfb6f3a2d?auto=format&fit=crop&w=400&q=60",
-    icon: <Home className="w-4 h-4" />
-  },
-  {
-    title: "Paola Portfolio",
-    category: "Personal Brand",
-    desc: "Premium, high-fidelity portfolio website built with Next.js and Tailwind CSS, showcasing my frontend and mobile development projects.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=400&q=60",
-    icon: <User className="w-4 h-4" />
-  }
-];
+  const projects = [
+    {
+      title: "ALMA Agriculture",
+      category: "Agriculture & Logistics",
+      desc: "Smart platform designed to reduce food spoilage and post-harvest loss by optimizing storage and logistics for local farmers.",
+      image: "/projects/alma.png",
+      icon: <Leaf className="w-5 h-5" />
+    },
+    {
+      title: "SmartQueue",
+      category: "Healthcare & Notifications",
+      desc: "Hospital queue notification system built with Angular that alerts users via SMS or app when they are next in line, reducing waiting time and missed appointments.",
+      image: "/projects/smartqueue.png",
+      icon: <Hospital className="w-5 h-5" />
+    },
+    {
+      title: "School Management System",
+      category: "EdTech & Web",
+      desc: "A school management platform that allows students and staff to efficiently view and track academic progress and administrative records.",
+      image: "/projects/school.png",
+      icon: <Laptop className="w-4 h-4" />
+    },
+    {
+      title: "Python Data Sorter",
+      category: "Data Processing",
+      desc: "A Python-based application designed to organize, sort, and process large datasets efficiently for analytical and reporting purposes.",
+      image: "/projects/python.png",
+      icon: <Laptop className="w-4 h-4" />
+    },
+    {
+      title: "Asivate AI",
+      category: "Assistive Tech",
+      desc: "Mobile app developed in a hackathon to assist disabled individuals with spatial navigation and object recognition, promoting inclusion in society.",
+      image: "/projects/asivate.png",
+      icon: <Eye className="w-5 h-5" />
+    },
+    {
+      title: "Real Estate Platform",
+      category: "Web & Frontend",
+      desc: "React-based application built to learn frontend fundamentals, allowing users to browse and filter property listings efficiently.",
+      image: "/projects/realestate.png",
+      icon: <Home className="w-4 h-4" />
+    },
+    {
+      title: "Paola Portfolio",
+      category: "Personal Brand",
+      desc: "Premium, high-fidelity portfolio website built with Next.js and Tailwind CSS, showcasing my frontend and mobile development projects.",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=400&q=60",
+      icon: <User className="w-4 h-4" />
+    }
+  ];
 
 
 
